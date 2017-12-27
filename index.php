@@ -18,6 +18,16 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
+			<!-- Hero Banner -->
+			<div class="hero" id="fp-hero">
+				<!-- TODO ACF implementation -->
+				<h1 class="align-middle">We just don't say well improve your business, we prove it</h1>
+			</div>
+			<!-- Main Content -->
+			<div id="main-content">
+				<h2>Proven Services</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium repudiandae nam deleniti maxime, impedit porro doloremque non dolores deserunt nisi magnam quas quidem corporis, voluptate officia? Fuga, natus quos! Expedita?</p>
+			</div>
 
 		<?php
 		if ( have_posts() ) :
@@ -26,6 +36,7 @@ get_header(); ?>
 				<header>
 					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
 				</header>
+
 
 			<?php
 			endif;

@@ -740,3 +740,26 @@ nav.navbar {
 #primary-menu {
   margin: 0 auto;
   height: auto; }
+
+#top-menu {
+  margin-left: auto; }
+
+#primary-menu li {
+  margin-left: 50px; }
+
+#fp-hero {
+  background-color: crimson;
+  color: white;
+  min-height: 400px;
+  position: relative; }
+
+#fp-hero h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 70%;
+  font-size: 4em; }
+
+#main-content h2 {
+  text-align: center; }
